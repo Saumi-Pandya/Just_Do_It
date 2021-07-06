@@ -6,7 +6,7 @@ import java.text.DateFormat
 
 @Entity(tableName = "task_table")
 data class Task(@PrimaryKey(autoGenerate = true) val id:Int,
-                var task_heading :String?,
-                var task_desc: String?,
-                var date:DateFormat?,
-                var priority:Int)
+                var title :String?,
+                var description: String?,
+                var date:Long = 21,
+                var priority:Int = 1)
