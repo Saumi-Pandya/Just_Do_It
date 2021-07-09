@@ -11,7 +11,7 @@ import com.example.just_do_it.R
 class ListFragment : Fragment() {
     // TODO: Rename and change types of parameters
 
-
+    
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
